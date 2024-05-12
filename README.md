@@ -1,2 +1,7 @@
 # KerbalEDU-redux
 A project to make STEM accessible and fun to students, using KSP. Oriented towards physics and aerospace engineering.
+
+This project aims to make students more interested in aerospace engineering and STEM in general, by way of the video game Kerbal Space Program. Its main goal is to remain accessible to both students and instructors. Perhaps someday, it can be a public repository for anybody to upload their own lesson plans or suggest their own educational modules. For now, it is a one-man show with just a few ideas floating around.
+The name of this project, KerbalEDU Redux, is an homage to the original KerbalEdu, which has since appeared to have gone defunct, despite officially partnering with the KSP team. With the recent struggles of KSP2, and the closure of Intercept Games, KSP's future is unclear; furthermore, it seemed to make more sense to develop an educational system based on a game that already exists in a full form, as opposed to having to keep up with constant updates anyway.
+To facilitate this project's accessibility, the only purchase requirement is a legal copy of KSP on a computer system (i.e., not a console). To reduce the setup and technical burden on instructors, KerbalEDU will minimize the number of mods and additional plugins required to carry academic and instructional points across, aiming to do the majority of course content with the base game.
+No trademark or copyright infringement is intended with this project.
