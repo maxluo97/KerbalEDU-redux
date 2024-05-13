@@ -14,7 +14,7 @@ Before beginning to use KSP for educational purposes, there is a small amount of
 
 # How-to
 
-## Editing orbits with HyperEdit
+## Editing orbits with HyperEdit SCREENSHOTS NEEDED
 
 The ability to place an object in a particular orbit without having to take the time to launch it is a significant boon to educational effciciency. By being able to directly edit orbits, you will be able to build spacecraft without being concerned with the delivery method. Furthermore, this allows you to put any object in space, including structures that would otherwise be impractical. For this section, I will use "spacecraft" to mean "any object you can build in the VAB". Note that while this includes traditional definitions of spacecraft, it also includes anything that KSP allows you to launch from its launchpads.
 
@@ -28,3 +28,11 @@ To edit the orbital parameters of a spacecraft without launching:
 6. Use the Complex and/or Graphical tabs to adjust the remainder of your orbital parameters.
 
 Note that the Orbit Editor function of HyperEdit allows you to adjust the orbits of any active bodies, including active spacecraft and celestial bodies. 
+
+## Information on maneuvers SCREENSHOTS NEEDED
+
+KSP has real-time information on maneuvers, including thrust-to-weight ratio (TWR), delta-V, and remaining firing time. If your spacecraft has engines and the required type of fuel, and if the spacecraft is configured correctly such that the engine is able to access the fuel reserves, then the game will be able to present this information to you. This information can be found in the bottom left while flying a spacecraft. The total delta-V remaining in the spacecraft, when combining all stages and taking into account stage separation, is the orange and white number in the bottom left, while blue delta-V numbers are the delta-V remaining for individual stages. Clicking any individual stage shows the Isp, thrust, TWR, and total burn time, for that stage. Clicking the bottommost, orange, total delta-V number expands this information for all stages.
+
+Note that these values dynamcially change depending on flight conditions. For example, while an engine is active, a visual yellow/green indicator for remaining fuel will appear. Furthermore, the numbers shown for inactive engines, or for active engines whose throttle is at 0, assume full throttle; manually setting the throttle will dynamically change all of these values.
+
+Some subtle knowledge must be developed to utilize this function to its fullest, especially regarding the flow of fuel and resources, and knowing which in-game items prevent or enable cross-flow.
