@@ -41,7 +41,7 @@ To edit the orbital parameters of a spacecraft without launching:
 
 Note that the Orbit Editor function of HyperEdit allows you to adjust the orbits of any active bodies, including active spacecraft and celestial bodies. 
 
-## Information on maneuvers SCREENSHOTS NEEDED
+## Information on maneuvers
 
 KSP has real-time information on maneuvers, including thrust-to-weight ratio (TWR), delta-V, and remaining firing time. If your spacecraft has engines and the required type of fuel, and if the spacecraft is configured correctly such that the engine is able to access the fuel reserves, then the game will be able to present this information to you. This information can be found in the bottom left while flying a spacecraft. The total delta-V remaining in the spacecraft, when combining all stages and taking into account stage separation, is the orange and white number in the bottom left, while blue delta-V numbers are the delta-V remaining for individual stages. Clicking any individual stage shows the Isp, thrust, TWR, and total burn time, for that stage. Clicking the bottommost, orange, total delta-V number expands this information for all stages.
 
@@ -54,3 +54,20 @@ KSP has real-time information on maneuvers, including thrust-to-weight ratio (TW
 Note that these values dynamcially change depending on flight conditions. For example, while an engine is active, a visual yellow/green indicator for remaining fuel will appear. Furthermore, the numbers shown for inactive engines, or for active engines whose throttle is at 0, assume full throttle; manually setting the throttle will dynamically change all of these values.
 
 Some subtle knowledge must be developed to utilize this function to its fullest, especially regarding the flow of fuel and resources, and knowing which in-game items prevent or enable cross-flow.
+
+## Advanced construction techniques
+
+TO-DO
+
+## Subassemblies
+
+KSP assembly works on some form of part hierarchy. The very first part placed in the editor is considered the core part of the entire spacecraft. The next part attached to the core part is the second part, the next part is the third part, etc. If there are three parts connected, manipulating the core part will, in turn, affect the other two parts. Manipulating the second part will detach itself from the core part. Because the third part is connected to the second part, manipulating the second part, therefore, affects the third part.
+
+Sometimes, in vehicle construction, it becomes necessary to adjust which part is considered the "core" part, depending on the quirks and idiosyncracies that happen through navigating the game's builder. This is where it is useful to leverage the Subassemblies mechanic. Inside the VAB, after you have constructed a collection of parts that you might consider a subassembly (e.g. a particular propulsion block) click the arrow in the very top left to open up the advanced menu. Then, click the green Subassemblies button. Click the core part such that moving your cursor around moves the entire subassembly. Drop it in the "Subassembly drop zone."
+
+Once a subassembly is created, it can be treated as one big part, and attached as an entire unit to wherever it is appropriate on your main vehicle.
+
+![20240516214836_1](https://github.com/maxluo97/KerbalEDU-redux/assets/169619314/6e5d739c-34d9-47ee-8331-5b20cbde8cf1)
+
+
+
