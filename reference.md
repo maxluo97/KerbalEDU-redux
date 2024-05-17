@@ -32,7 +32,11 @@ To edit the orbital parameters of a spacecraft without launching:
 
 5. Ensure you are under the "Simple" tab. Altitude is in m. Set Altitude to 100,000. This clears Kerbin's atmosphere (which ends at 70,000 m altitude), while still remaining in low orbit. Notice how the Simple editor automatically places the spacecraft in an equatorial, circular orbit. ![20240516203927_1](https://github.com/maxluo97/KerbalEDU-redux/assets/169619314/705154ed-18e6-43a6-925b-e13d297166ea)
 
-6. Use the Complex and/or Graphical tabs to adjust the remainder of your orbital parameters.![20240516204009_1](https://github.com/maxluo97/KerbalEDU-redux/assets/169619314/2e7b1d35-d256-4d44-a0cc-5b9bf893c310)
+6. Use the Complex and/or Graphical tabs to adjust the remainder of your orbital parameters. If you are adjusting your spacecraft's velocity under the Velocity tab, note that directions are not "doubled up". For instance, if you wish to add 200 m/s in the retrograde direction, you must instead add -200 m/s in the prograde direction.
+
+![20240516204009_1](https://github.com/maxluo97/KerbalEDU-redux/assets/169619314/2e7b1d35-d256-4d44-a0cc-5b9bf893c310)
+
+![20240516205720_1](https://github.com/maxluo97/KerbalEDU-redux/assets/169619314/efea43d9-699d-45c2-98a6-d96db95b9449)
 
 
 Note that the Orbit Editor function of HyperEdit allows you to adjust the orbits of any active bodies, including active spacecraft and celestial bodies. 
